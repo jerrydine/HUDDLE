@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+:root {
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+}
+body {
+    font-family: 'Open Sans';
+    font-family: 'Poppins';
+}
+/* --- HERO----- */
+#hero {
+    background: url(./images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: var(--VeryPaleCyan);
+}
+#hero span a{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 180px;
+    border-radius: 25px;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+#hero span a:hover{
+    color: var(--GrayishBlue);
+}
+#hero a{
+    background-color: rgb(238, 122, 168);
+    color: white;
+    width: 270px;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+#hero a:hover{
+    opacity: 0.7;
+}
+#hero img{
+    margin-top: 50px;
+}
+#hero h1{
+    line-height: 1.6;
+}
+#hero p{
+    line-height:1.6 ;
+} 
+#GT{
+    width: 85%;
+    margin: auto;
+}
+#FC{
+    width: 85%;
+    margin: auto;
+}
+#YU{
+    width: 85%;
+    margin: auto;
+}
+
+#footer{
+    color: white;
+    background-color: var(--VeryDarkCyan);
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#RC a{
+    background-color: rgb(238, 122, 168);
+    color: white;
+    width: 350px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+#RC a:hover{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+    #hero span a{
+        padding: 5px;
+        width: 120px;
+    }
+  
+    #RC a{
+        width: 250px;
+        border-radius: 35px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .build{
+        display: block;
+    }
+    
+    /* #hero span a{
+        padding: 5px;
+        width: 120px;
+    }
+  
+    #RC a{
+        width: 250px;
+        border-radius: 35px;
+        cursor: pointer;
+    } */
+}
+
